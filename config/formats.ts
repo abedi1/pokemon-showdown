@@ -22,8 +22,21 @@ export const Formats: FormatList = [
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
+
+	
 	{
 		section: "S/V Singles",
+	},
+	{
+		name: "[Gen 9] Free-For-All Random Battle",
+
+		mod: 'gen9',
+		team: 'random',
+		gameType: 'freeforall',
+		// searchShow: false,
+		tournamentShow: false,
+		rated: false,
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
 		name: "[Gen 9] Random Battle",
